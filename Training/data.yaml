@@ -1,0 +1,14 @@
+train: C:/Users/ebrar/PycharmProjects/pythonDetection/Training/train/images
+val: C:/Users/ebrar/PycharmProjects/pythonDetection/Training/valid/images
+test: C:/Users/ebrar/PycharmProjects/pythonDetection/Training/test/images
+
+nc: 7
+names: ['black', 'blue', 'green', 'orange', 'red', 'white', 'yellow']
+
+roboflow:
+  workspace: nicoltesla
+  project: pen-detection-1i8zo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nicoltesla/pen-detection-1i8zo/dataset/1
+
